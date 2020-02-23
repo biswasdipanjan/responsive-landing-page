@@ -1,0 +1,117 @@
+/*General Styles*/
+
+.btn {
+    padding: 0.75rem 2rem;
+}
+
+.btn.btn-with-icon {
+    margin: 0 0.2rem;
+    padding: 0.5rem;
+    width: 40px;
+}
+
+/*Navbar*/
+
+.navbar-container {
+    background-color: #dc4c4d;
+}
+
+.navbar {
+    border: none !important;
+}
+
+.navbar-brand img {
+    height: 20px;
+}
+
+.navbar-toggler {
+    background-color: #dc3545;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #bbb;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1551200302-a21c85b3571d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=891&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 10rem;
+}
+
+/*Features*/
+.icon-big {
+    font-size: 250%;
+    color: #dc4c4d;
+    margin-bottom: 20px;
+}
+
+/*Projects*/
+
+.project-container {
+    overflow: hidden;
+}
+
+.project {
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    min-height: 300px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.2);
+}
+
+.project .overlay {
+    align-items: center;
+    background-color: #dc3545;
+    color: #fff;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    transition: opacity 0.4s ease-in-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project:hover .overlay {
+    opacity: 0.9;
+}
+
+.pre-footer {
+    background-color: #dc4c4d;
+}
+
+footer {
+    background-color: #861a1b;
+}
+
+footer .text-muted,
+.pre-footer .text-muted {
+    color: #bbb !important;
+}
+
+footer p,
+.pre-footer p {
+    margin: 0;
+}
